@@ -109,37 +109,68 @@ hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
 <div class="wrap">
 
 <!-- BÖLÜM 1 -->
-<div class="sh"><span class="dot g"></span><span class="stt">Bugün ne kadar hasılatımız oldu?</span></div>
+<div class="sh"><span class="dot g"></span><span class="stt">Bu dönemde ne kadar hasılatımız oldu?</span></div>
 <div class="g3">
-  <div class="card csm"><div class="ml">Brüt Hasılat</div><div class="mv">0</div><div class="ms">&#8378;</div></div>
-  <div class="card csm"><div class="ml">İndirimler Toplamı</div><div class="mv r">0</div><div class="ms">&#8378; — İkram + İptal/İade + İndirim</div></div>
-  <div class="card csm"><div class="ml">Net Hasılat</div><div class="mv g">0</div><div class="ms">&#8378; — Gerçek tahsil edilen</div></div>
+  <div class="card csm"><div class="ml">Brüt Hasılat</div><div class="mv">189.620</div><div class="ms">&#8378;</div></div>
+  <div class="card csm"><div class="ml">İndirimler Toplamı</div><div class="mv r">15.758</div><div class="ms">&#8378; — İkram + İptal/İade + İndirim</div></div>
+  <div class="card csm"><div class="ml">Net Hasılat</div><div class="mv g">173.862</div><div class="ms">&#8378; — Gerçek tahsil edilen</div></div>
 </div>
 <div class="g2">
   <div class="card">
     <div class="ct">Brüt &#8594; Net Hasılat Köprü Tablosu</div>
     <table class="bt"><tbody>
-      <tr><td>Brüt Satış</td><td class="bv bp">0,00 &#8378;</td></tr>
-      <tr><td style="color:var(--rd)">&#8722; İkram</td><td class="bv bm">0,00 &#8378;</td></tr>
-      <tr><td style="color:var(--rd)">&#8722; İptal / İade</td><td class="bv bm">0,00 &#8378;</td></tr>
-      <tr><td style="color:var(--rd)">&#8722; İndirim</td><td class="bv bm">0,00 &#8378;</td></tr>
-      <tr class="btot"><td>= Net Hasılat</td><td class="bv bp">0,00 &#8378;</td></tr>
+      <tr><td>Brüt Satış</td><td class="bv bp">189.619,90 &#8378;</td></tr>
+      <tr><td style="color:var(--rd)">&#8722; İkram</td><td class="bv bm">11.478,35 &#8378;</td></tr>
+      <tr><td style="color:var(--rd)">&#8722; İptal / İade</td><td class="bv bm">3.594,75 &#8378;</td></tr>
+      <tr><td style="color:var(--rd)">&#8722; İndirim</td><td class="bv bm">685,00 &#8378;</td></tr>
+      <tr class="btot"><td>= Net Hasılat</td><td class="bv bp">173.861,80 &#8378;</td></tr>
     </tbody></table>
-    <div style="margin-top:9px;font-size:11px;color:var(--tx3)">
-      Kayıp oranı: <strong style="color:var(--am)">—</strong>
-      &nbsp;|&nbsp; Kasa farkı: <strong style="color:var(--am)">0,00 &#8378;</strong>
-    </div>
   </div>
   <div class="card">
     <div class="ct">Köprü Grafik</div>
-    <p style='font-size:12px;color:var(--tx3)'>Veri yok</p>
+    <div class="barchart">
+<div class="barrow">
+  <div class="barlabel">Brüt</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:100.0%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%100.0</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">İkram</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:-6.1%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%-6.1</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">İptal/İade</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:-1.9%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%-1.9</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">İndirim</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:-0.4%;background:#e84545"></div>
+  </div>
+  <div class="barpct">%-0.4</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Net</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:91.7%;background:#2ecc8a"></div>
+  </div>
+  <div class="barpct">%91.7</div>
+</div></div>
   </div>
 </div>
 
 <hr>
 
 <!-- BÖLÜM 2 -->
-<div class="sh"><span class="dot b"></span><span class="stt">Bugün neler sattık?</span></div>
+<div class="sh"><span class="dot b"></span><span class="stt">Bu dönemde Neler Sattık?</span></div>
 <div class="g2">
   <div class="card"><div class="ct">Kategori Bazlı Ciro — Grafik</div><div class="barchart">
 <div class="barrow">
@@ -228,23 +259,38 @@ hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
 <!-- BÖLÜM 3 -->
 <div class="sh"><span class="dot a"></span><span class="stt">Hasılatımızı nasıl tahsil ettik?</span></div>
 <div class="g2">
-  <div class="card"><div class="ct">Tahsilat Yöntemleri — Grafik</div><p style='font-size:12px;color:var(--tx3)'>Veri yok</p></div>
+  <div class="card"><div class="ct">Tahsilat Yöntemleri — Grafik</div><div class="barchart">
+<div class="barrow">
+  <div class="barlabel">Nakit Toplamı</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:22.5%;background:#2ecc8a"></div>
+  </div>
+  <div class="barpct">%22.5</div>
+</div>
+<div class="barrow">
+  <div class="barlabel">Garanti KK</div>
+  <div class="bartrack">
+    <div class="barfill" style="width:77.5%;background:#4f8ef7"></div>
+  </div>
+  <div class="barpct">%77.5</div>
+</div></div></div>
   <div class="card">
     <div class="ct">Tahsilat Tablosu</div>
     <table>
       <thead><tr><th>Tahsilat Türü</th><th class="tr">Tutar (&#8378;)</th><th class="tr">%</th></tr></thead>
       <tbody>
-        <tr><td>TL Nakit (Z Rapor)</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bif">—</span></td></tr>
+        <tr><td>TL Nakit (Z Rapor)</td><td class="tr mo">31.191,80</td><td class="tr"><span class="badge bif">%17.9</span></td></tr>
+        <tr><td>Euro (TL karşılığı)</td><td class='tr mo'>7.950,00</td><td class='tr'><span class='badge bif'>%4.6</span></td></tr>
         
-        
-        <tr><td>Garanti KK Toplam</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bok">—</span></td></tr>
+        <tr style="background:#f0fdf4"><td><strong>Nakit Toplamı</strong></td><td class="tr mo"><strong>39.141,80</strong></td><td class="tr"><span class="badge bif">%22.5</span></td></tr>
+        <tr><td>Garanti KK Toplam</td><td class="tr mo">134.720,00</td><td class="tr"><span class="badge bok">%77.5</span></td></tr>
         <tr><td>Yemeksepeti Online</td><td class="tr mo">0,00</td><td class="tr"><span class='badge bwn'>—</span></td></tr>
-        <tr><td>IBAN Havale</td><td class="tr mo">0,00</td><td class="tr">—</td></tr>
-        <tr class="trow"><td>GENEL TOPLAM</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bok">%100</span></td></tr>
+        <tr><td>IBAN Havale</td><td class="tr mo">0,00</td><td class="tr"><span class='badge bwn'>—</span></td></tr>
+        <tr class="trow"><td>GENEL TOPLAM</td><td class="tr mo">173.861,80</td><td class="tr"><span class="badge bok">%100</span></td></tr>
       </tbody>
     </table>
     <div style="margin-top:8px;font-size:11px;color:var(--tx3)">
-      Nakit toplamı: 0,00 &#8378; = TL (0,00) + Euro (0,00) + CHF (0,00)
+      Nakit toplamı: 39.141,80 &#8378; = TL (31.191,80) + Euro (7.950,00) + CHF (0,00)
     </div>
     <button onclick='tahsilatExcel()' style='margin-top:10px;background:#16a34a;border:none;border-radius:6px;padding:5px 14px;color:#fff;font-family:inherit;font-size:11px;cursor:pointer;font-weight:600'>&#8595; Excel İndir</button>
   </div>
@@ -255,47 +301,39 @@ hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
 <!-- BÖLÜM 4 -->
 <div class="sh"><span class="dot t"></span><span class="stt">Kasa Hareketlerimiz?</span></div>
 <div class="g4">
-  <div class="card csm"><div class="ml">Dünden Devir</div><div class="mv" style="font-size:17px">0</div><div class="ms">&#8378;</div></div>
-  <div class="card csm"><div class="ml">Bugünkü Tahsilat</div><div class="mv g" id="kap_tahsilat" style="font-size:17px">0</div><div class="ms">&#8378;</div>
+  <div class="card csm"><div class="ml">Devir Kasa Mevcudu</div><div class="mv" style="font-size:17px">0</div><div class="ms">&#8378;</div></div>
+  <div class="card csm"><div class="ml">Bu Dönemdeki Tahsilat</div><div class="mv g" id="kap_tahsilat" style="font-size:17px">39.142</div><div class="ms">&#8378; — Nakit (TL+Döviz)</div>
     <button onclick='tahsilatExcel()' style='margin-top:8px;background:#16a34a;border:none;border-radius:6px;padding:4px 11px;color:#fff;font-family:inherit;font-size:11px;cursor:pointer;font-weight:600'>&#8595; Excel</button>
   </div>
   <div class="card csm">
-    <div class="ml">Bugünkü Tediyeler</div><div class="mv a" style="font-size:17px">0</div><div class="ms">&#8378;</div>
-    
-    
+    <div class="ml">Bu Dönemdeki Tediyeler</div><div class="mv a" style="font-size:17px">8.242</div><div class="ms">&#8378;</div>
+    <button onclick='toggleMasraf()' style='margin-top:8px;background:none;border:1px solid var(--bo);border-radius:6px;padding:4px 11px;color:var(--tx3);font-family:inherit;font-size:11px;cursor:pointer'>Detay ▾</button>
+    <button onclick='tediyeExcel()' style='margin-top:8px;margin-left:6px;background:#16a34a;border:none;border-radius:6px;padding:4px 11px;color:#fff;font-family:inherit;font-size:11px;cursor:pointer;font-weight:600'>&#8595; Excel</button>
   </div>
   <div class="card csm"><div class="ml">Kasa Mevcudu</div><div class="mv b" style="font-size:17px">0</div><div class="ms">&#8378;</div></div>
 </div>
 <div class="dg">
-  <div class="dc"><div class="dcur">Türk Lirası</div><div class="dval g" id="kap_tl">0,00 &#8378;</div><div class="dsub">Ana para birimi</div></div>
-  <div class="dc"><div class="dcur">Euro</div><div class="dval" id="kap_eur">0 &#8364;</div><div class="dsub">Kapanış</div></div>
-  <div class="dc"><div class="dcur">Dolar</div><div class="dval" id="kap_usd">0 $</div><div class="dsub">Kapanış</div></div>
-  <div class="dc"><div class="dcur">Sterlin</div><div class="dval" id="kap_gbp">0 &#163;</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">TL MEVCUT</div><div class="dval g" id="kap_tl">0,00 &#8378;</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">EURO MEVCUT</div><div class="dval" id="kap_eur">0 &#8364;</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">DOLAR MEVCUT</div><div class="dval" id="kap_usd">0 $</div><div class="dsub">Kapanış</div></div>
+  <div class="dc"><div class="dcur">STERLİN MEVCUT</div><div class="dval" id="kap_gbp">0 &#163;</div><div class="dsub">Kapanış</div></div>
+</div>
+
+<div id="mlist" style="display:none">
+<div class="card">
+  <div class="ct">Tediye Detayı — 6 Kalem</div>
+  <table>
+    <thead><tr><th>#</th><th>Açıklama</th><th class="tr">Tutar (&#8378;)</th></tr></thead>
+    <tbody><tr><td>1</td><td>celal aktepe temizlik extra ödeme</td><td class='tr mo'>1.000,00</td></tr><tr><td>2</td><td>hüseyin mermer ch</td><td class='tr mo'>1.220,00</td></tr><tr><td>3</td><td>bilal bey ch</td><td class='tr mo'>4.750,00</td></tr><tr><td>4</td><td>nalan hamarat elektrikli araç şarz ücreti</td><td class='tr mo'>423,97</td></tr><tr><td>5</td><td>lojman su faturası ödemesi</td><td class='tr mo'>693,00</td></tr><tr><td>6</td><td>nalan hamarat su fatura ödeme</td><td class='tr mo'>155,00</td></tr></tbody>
+    <tr class="trow"><td colspan="2">TOPLAM</td><td class="tr mo">8.241,97</td></tr>
+  </table>
+</div>
 </div>
 
 
 <hr>
 
 <!-- BÖLÜM 5 -->
-<div class="sh"><span class="dot p"></span><span class="stt">Bugünkü Banka Tahsilatları?</span></div>
-<div class="card">
-  <table>
-    <thead><tr><th>Banka / Kanal</th><th class="tr">Tutar (&#8378;)</th><th class="tr">Durum</th></tr></thead>
-    <tbody>
-      <tr><td>TEB Bankası — 12:00'dan Önce</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bwn">Yok</span></td></tr>
-      <tr><td>TEB Bankası — 12:00'dan Sonra</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bwn">Yok</span></td></tr>
-      <tr class="bhlt"><td>Garanti Bank — 12:00'dan Önce</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bwn">Yok</span></td></tr>
-      <tr class="bhlt"><td>Garanti Bank — 12:00'dan Sonra</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bwn">Yok</span></td></tr>
-      <tr><td>Yemeksepeti Online</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bwn">Yok</span></td></tr>
-      <tr><td>Satıştan IBAN'a Gelen Havale</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bwn">Yok</span></td></tr>
-      <tr class="trow"><td>TOPLAM</td><td class="tr mo">0,00</td><td class="tr"><span class="badge bok">KK Toplam</span></td></tr>
-    </tbody>
-  </table>
-</div>
-
-<hr>
-
-<!-- BÖLÜM 6 -->
 <div class="sh"><span class="dot r"></span><span class="stt">Cironun Saatlere Göre Dağılımı?</span></div>
 <div class="g21">
   <div class="card"><div class="ct">Saatlik Ciro — % program hesapladı</div><div class="barchart">
@@ -359,29 +397,18 @@ hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
     <div class="ct">Saatlik % Dağılımı</div>
     <table>
       <thead><tr><th>Saat</th><th class="tr">&#8378;</th><th class="tr">%</th></tr></thead>
-      <tbody><tr><td>18:00–20:00</td><td class='tr mo' style='font-size:11px'>10.723,65</td><td class='tr'><span class='badge bif'>%5.8</span></td></tr><tr><td>20:00–22:00</td><td class='tr mo' style='font-size:11px'>6.054,20</td><td class='tr'><span class='badge bif'>%3.3</span></td></tr><tr><td>22:00–23:00</td><td class='tr mo' style='font-size:11px'>32.387,95</td><td class='tr'><span class='badge bwn'>%17.5</span></td></tr><tr><td>23:00–00:00</td><td class='tr mo' style='font-size:11px'>40.812,60</td><td class='tr'><span class='badge bng'>%22.0</span></td></tr><tr><td>00:00–01:00</td><td class='tr mo' style='font-size:11px'>25.312,70</td><td class='tr'><span class='badge bif'>%13.7</span></td></tr><tr><td>01:00-02:00</td><td class='tr mo' style='font-size:11px'>28.396,80</td><td class='tr'><span class='badge bwn'>%15.3</span></td></tr><tr><td>02:00-03:00</td><td class='tr mo' style='font-size:11px'>39.262,62</td><td class='tr'><span class='badge bwn'>%21.2</span></td></tr><tr><td>03:00-04:00</td><td class='tr mo' style='font-size:11px'>2.389,63</td><td class='tr'><span class='badge bif'>%1.3</span></td></tr></tbody>
+      <tbody><tr><td>18:00–20:00</td><td class='tr mo' style='font-size:11px'>10.723,65</td><td class='tr'><span class='badge bif'>%5.8</span></td></tr><tr><td>20:00–22:00</td><td class='tr mo' style='font-size:11px'>6.054,20</td><td class='tr'><span class='badge bif'>%3.3</span></td></tr><tr><td>22:00–23:00</td><td class='tr mo' style='font-size:11px'>32.387,95</td><td class='tr'><span class='badge bwn'>%17.5</span></td></tr><tr><td>23:00–00:00</td><td class='tr mo' style='font-size:11px'>40.812,60</td><td class='tr'><span class='badge bng'>%22.0</span></td></tr><tr><td>00:00–01:00</td><td class='tr mo' style='font-size:11px'>25.312,70</td><td class='tr'><span class='badge bif'>%13.7</span></td></tr><tr><td>01:00-02:00</td><td class='tr mo' style='font-size:11px'>28.396,80</td><td class='tr'><span class='badge bwn'>%15.3</span></td></tr><tr><td>02:00-03:00</td><td class='tr mo' style='font-size:11px'>39.262,62</td><td class='tr'><span class='badge bwn'>%21.2</span></td></tr><tr><td>03:00-04:00</td><td class='tr mo' style='font-size:11px'>2.389,63</td><td class='tr'><span class='badge bif'>%1.3</span></td></tr><tr class='trow'><td><strong>TOPLAM</strong></td><td class='tr mo'><strong>185.340,15</strong></td><td class='tr'><span class='badge bok'>%100</span></td></tr></tbody>
     </table>
-    <div style="margin-top:8px;font-size:11px;color:var(--am)">&#9888; % oranlar program tarafından hesaplandı</div>
   </div>
 </div>
 
 <hr>
-<div class="g3">
-  <div class="card csm"><div class="ml">Kasa Fazlası / Açığı</div><div class="mv a">0,00 &#8378;</div></div>
-  <div class="card csm"><div class="ml">İptal + İade + İndirim</div><div class="mv r">0,00 &#8378;</div><div class="ms">Brüt'ün —'i</div></div>
-  <div class="card csm"><div class="ml">İkram</div><div class="mv a">0,00 &#8378;</div><div class="ms">Brüt'ün —'i</div></div>
-</div>
-
-<hr>
-
-<!-- UYUMSUZLUKLAR -->
-<div class="sh"><span class="dot r"></span><span class="stt">Raporlar Arası Uyumsuzluklar</span></div>
 <div class="uy-blok dng"><div class="uy-blok-t r">&#9888; İncelenmeli — 2 Uyumsuzluk</div>
 <div class="uy-item">
   <div class="uy-ic">1️⃣</div>
   <div class="uy-txt">
     <div class="uy-bas">Hasılat Farkı — Kasa Raporu ≠ Gece Raporu</div>
-    <div class="uy-deg">Kasa Net: 0,00 &#8378;<br>Gece Ciro: 185.340,15 &#8378;<br>FARK: 185.340,15 &#8378;</div>
+    <div class="uy-deg">Kasa Net: 173.861,80 &#8378;<br>Gece Ciro: 185.340,15 &#8378;<br>FARK: 11.478,35 &#8378;</div>
     <div class="uy-det">Gece Raporu ham ciro, Kasa Raporu tahsilat bazlı gerçek geliri yansıtır.</div>
     <div class='uy-ak'>→ Aksiyon: İkram + iptal kalemlerini Kasa Raporu ile karşılaştırın.</div>
   </div>
@@ -401,8 +428,8 @@ hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
   <div class="uy-ic">✓</div>
   <div class="uy-txt">
     <div class="uy-bas">Garanti KKT Çapraz Doğrulama</div>
-    <div class="uy-deg">Garanti KK Toplam: 0,00 &#8378;</div>
-    <div class="uy-det">12:00 önce 0,00 &#8378; + sonra 0,00 &#8378;</div>
+    <div class="uy-deg">Garanti KK Toplam: 134.720,00 &#8378;</div>
+    <div class="uy-det">12:00 önce 16.405,00 &#8378; + sonra 118.315,00 &#8378;</div>
     
   </div>
   <span class="badge bok" style="flex-shrink:0">Uyumlu</span>
@@ -415,11 +442,11 @@ hr{border:none;border-top:1px solid var(--bo);margin:20px 0;}
 function toggleMasraf(){var el=document.getElementById('mlist');if(el)el.style.display=el.style.display==='none'?'block':'none';}
 function _fmt(v){if(typeof v!=='number')return v||'0';var n=Math.round(v*100);var dec=String(n%100);if(dec.length<2)dec='0'+dec;var s=String(Math.floor(n/100));var r='';for(var i=0;i<s.length;i++){if(i>0&&(s.length-i)%3===0)r+='.';r+=s[i];}return r+','+dec;}
 function _fmtI(v){if(typeof v!=='number')return '0';var s=String(Math.round(v));var r='';for(var i=0;i<s.length;i++){if(i>0&&(s.length-i)%3===0)r+='.';r+=s[i];}return r;}
-window.addEventListener('DOMContentLoaded',function(){var je=document.getElementById('rapor-veri');if(!je)return;try{var d=JSON.parse(je.textContent);var set=function(id,val){var e=document.getElementById(id);if(e)e.textContent=val;};set('kap_tl',_fmt(d.kapanis_tl)+' ₺');set('kap_eur',_fmtI(d.kapanis_euro)+' €');set('kap_usd',_fmtI(d.kapanis_usd)+' $');set('kap_gbp',_fmtI(d.kapanis_gbp)+' £');set('kap_tahsilat',_fmt(d.tahsilat_nakit||d.tl_nakit||0));}catch(ex){}});
+window.addEventListener('DOMContentLoaded',function(){var je=document.getElementById('rapor-veri');if(!je)return;try{var d=JSON.parse(je.textContent);var set=function(id,val){var e=document.getElementById(id);if(e)e.textContent=val;};set('kap_tl',_fmt(d.kapanis_tl)+' ₺');set('kap_eur',_fmtI(d.kapanis_euro)+' €');set('kap_usd',_fmtI(d.kapanis_usd)+' $');set('kap_gbp',_fmtI(d.kapanis_gbp)+' £');set('kap_tahsilat',_fmt(d.nakit_toplam||d.tahsilat_nakit||d.tl_nakit||0));}catch(ex){}});
 function tediyeExcel(){var je=document.getElementById('rapor-veri');if(!je){alert('Veri yok');return;}try{var d=JSON.parse(je.textContent);var f=function(v){return _fmt(v);};var NL=String.fromCharCode(10);var csv='﻿';csv+='TEDIYE LISTESI'+NL+'Tarih: '+(d.tarih||'')+NL+NL;csv+='#;Aciklama;Tutar (TL)'+NL;if(d.tediyeler&&d.tediyeler.length){for(var i=0;i<d.tediyeler.length;i++){var t=d.tediyeler[i];csv+=(i+1)+';'+t.ad+';'+f(t.tutar)+NL;}csv+=NL+'TOPLAM;;'+f(d.tediye_toplam||0)+NL;}var a=document.createElement('a');var tr=(d.tarih||'').replace(/[. ]+/g,'_');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download='tediye_'+tr+'.csv';document.body.appendChild(a);a.click();setTimeout(function(){if(a.parentNode)a.parentNode.removeChild(a);},200);}catch(ex){alert('Hata: '+ex.message);}}
 function tahsilatExcel(){var je=document.getElementById('rapor-veri');if(!je){alert('Veri yok');return;}try{var d=JSON.parse(je.textContent);var f=function(v){return _fmt(v);};var NL=String.fromCharCode(10);var csv='﻿';csv+='NAKIT TAHSILAT'+NL+'Tarih: '+(d.tarih||'')+NL+NL;csv+='TAHSILAT YONTEMI;TUTAR (TL)'+NL;csv+='TL Nakit (Z Raporu);'+f(d.tl_nakit||0)+NL;csv+='Euro ('+(d.euro_adet||0)+' x '+(d.euro_kur||0)+');'+f(d.euro_tl||0)+NL;csv+='CHF ('+(d.chf_adet||0)+' x '+(d.chf_kur||0)+');'+f(d.chf_tl||0)+NL;csv+='Garanti KK;'+f((d.garanti_once||0)+(d.garanti_sonra||0))+NL;csv+='Yemeksepeti;'+f(d.yemeksepeti||0)+NL;csv+='IBAN Havale;'+f(d.iban_havale||0)+NL;var top=(d.tl_nakit||0)+(d.euro_tl||0)+(d.chf_tl||0)+(d.garanti_once||0)+(d.garanti_sonra||0)+(d.yemeksepeti||0)+(d.iban_havale||0);csv+='GENEL TOPLAM;'+f(top)+NL+NL;csv+='KASA KAPANIS'+NL;csv+='Turk Lirasi;'+f(d.kapanis_tl||0)+NL;csv+='Euro;'+(d.kapanis_euro||0)+NL;csv+='Dolar;'+(d.kapanis_usd||0)+NL;csv+='Sterlin;'+(d.kapanis_gbp||0)+NL;if(d.gunluk_dagilim&&d.gunluk_dagilim.length>1){csv+=NL+'GUNLUK DAGILIM'+NL+'Tarih;Net;KK;Nakit;Brut'+NL;for(var g=0;g<d.gunluk_dagilim.length;g++){var r=d.gunluk_dagilim[g];csv+=r[0]+';'+f(r[1])+';'+f(r[2])+';'+f(r[3])+';'+f(r[4])+NL;}}var a=document.createElement('a');var tr=(d.tarih||'').replace(/[. ]+/g,'_');a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);a.download='tahsilat_'+tr+'.csv';document.body.appendChild(a);a.click();setTimeout(function(){if(a.parentNode)a.parentNode.removeChild(a);},200);}catch(ex){alert('Hata: '+ex.message);}}
 </script>
 
 </body>
-<script id="rapor-veri" type="application/json">{"tarih": "13.05.2026", "brut_satis": 0.0, "net_hasilat": 0.0, "ikram": 0.0, "iptal_iade": 0.0, "indirim": 0.0, "tl_nakit": 0.0, "euro_adet": 0.0, "euro_kur": 0.0, "chf_adet": 0.0, "chf_kur": 0.0, "garanti_once": 0.0, "garanti_sonra": 0.0, "yemeksepeti": 0.0, "iban_havale": 0.0, "tahsilat_nakit": 0.0, "tediye_toplam": 0, "devir_tl": 0.0, "kapanis_tl": 0.0, "kapanis_euro": 0.0, "kapanis_usd": 0.0, "kapanis_gbp": 0.0, "kategoriler": [{"ad": "Yemek", "tutar": 10948.9}, {"ad": "Bira", "tutar": 48684.35}, {"ad": "Şarap", "tutar": 939.9}, {"ad": "Ağır Alkol", "tutar": 78513.64}, {"ad": "Kokteyl", "tutar": 23252.4}, {"ad": "Soft / Diğer/çerez/maytap", "tutar": 23000.96}], "tediyeler": [], "saatlik": [["18:00–20:00", 10723.65], ["20:00–22:00", 6054.2], ["22:00–23:00", 32387.95], ["23:00–00:00", 40812.6], ["00:00–01:00", 25312.7], ["01:00-02:00", 28396.8], ["02:00-03:00", 39262.62], ["03:00-04:00", 2389.63]], "gece_ciro_toplam": 185340.15, "gece_nakit": 21957.95, "kasa_farki": 0.0}</script>
+<script id="rapor-veri" type="application/json">{"tarih": "13.05.2026", "brut_satis": 189619.9, "net_hasilat": 173861.8, "ikram": 11478.35, "iptal_iade": 3594.75, "indirim": 685.0, "tl_nakit": 31191.79999999999, "euro_adet": 150.0, "euro_kur": 53.0, "euro_tl": 7950.0, "chf_adet": 0.0, "chf_kur": 0.0, "chf_tl": 0.0, "garanti_once": 16405.0, "garanti_sonra": 118315.0, "yemeksepeti": 0.0, "iban_havale": 0.0, "tahsilat_nakit": 0.0, "nakit_toplam": 39141.79999999999, "tediye_toplam": 8241.97, "devir_tl": 0.0, "kapanis_tl": 0.0, "kapanis_euro": 0.0, "kapanis_usd": 0.0, "kapanis_gbp": 0.0, "kategoriler": [{"ad": "Yemek", "tutar": 10948.9}, {"ad": "Bira", "tutar": 48684.35}, {"ad": "Şarap", "tutar": 939.9}, {"ad": "Ağır Alkol", "tutar": 78513.64}, {"ad": "Kokteyl", "tutar": 23252.4}, {"ad": "Soft / Diğer/çerez/maytap", "tutar": 23000.96}], "tediyeler": [{"ad": "celal aktepe temizlik extra ödeme", "tutar": 1000.0}, {"ad": "hüseyin mermer ch", "tutar": 1220.0}, {"ad": "bilal bey ch", "tutar": 4750.0}, {"ad": "nalan hamarat elektrikli araç şarz ücreti", "tutar": 423.97}, {"ad": "lojman su faturası ödemesi", "tutar": 693.0}, {"ad": "nalan hamarat su fatura ödeme", "tutar": 155.0}], "saatlik": [["18:00–20:00", 10723.65], ["20:00–22:00", 6054.2], ["22:00–23:00", 32387.95], ["23:00–00:00", 40812.6], ["00:00–01:00", 25312.7], ["01:00-02:00", 28396.8], ["02:00-03:00", 39262.62], ["03:00-04:00", 2389.63]], "gece_ciro_toplam": 185340.15, "gece_nakit": 21957.95, "kasa_farki": 0.17000000001280569}</script>
 </html>
